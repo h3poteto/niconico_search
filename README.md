@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-client = NiconicoSearch.new("your_application_name")
+client = NiconicoSearch::Client.new("your_application_name")
 results = nico.search(
   query: keyword,
   targets: [:title, :description, :tags],
