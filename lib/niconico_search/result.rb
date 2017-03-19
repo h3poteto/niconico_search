@@ -1,5 +1,5 @@
 # -*- frozen_string_literal: true -*-
-class NiconicoSearch
+module NiconicoSearch
   class Result
     @@names = [
       :contentId, :title, :description, :tags, :categoryTags,
