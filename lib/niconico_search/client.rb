@@ -1,6 +1,8 @@
 # -*- frozen_string_literal: true -*-
 require "uri"
 require "open-uri"
+require "json"
+require "active_support/core_ext/hash/keys"
 
 module NiconicoSearch
   class ResponseError < StandardError; end
